@@ -239,14 +239,14 @@ body{
     position: relative;
 }
 .items-container__images img{
-    width:285px;
+    width:255px;
     border-radius: 10px;
 }
 .items-container__abt{
     padding: 10px;
     position: absolute;
     top: 73%;
-    width: 250px;
+    width: 235px;
     border-radius: 10px;
     color: white;
     background-color: rgba(96,95,94,0.3);
@@ -255,7 +255,7 @@ body{
     padding: 10px;
     position: absolute;
     top: 73%;
-    width: 250px;
+    width: 235px;
     border-radius: 10px;
     color: white;
     background-color: rgba(96,95,94,0.3);
@@ -264,7 +264,7 @@ body{
     padding: 10px;
     position: absolute;
     top: 73%;
-    width: 250px;
+    width: 235px;
     border-radius: 10px;
     color: white;
     background-color: rgba(96,95,94,0.3);
@@ -273,7 +273,7 @@ body{
     padding: 10px;
     position: absolute;
     top: 73%;
-    width: 250px;
+    width: 235px;
     border-radius: 10px;
     color: white;
     background-color: rgba(96,95,94,0.3);
@@ -293,12 +293,12 @@ body{
   
 }
 .next-images1 img{
-    width: 390px;
+    width: 300px;
     border-radius: 10px;
-    height: 290px;
+    height: 280px;
 }
 .next-images img{
-    width: 390px;
+    width: 370px;
     border-radius: 10px;
 }
 .onee,.two,.three{
@@ -322,12 +322,12 @@ body{
 
 }
 .torch img{
-    width:285px;
+    width:255px;
     border-radius: 10px;
 }
 .tours p{
     margin-top: 10px;
-    width:285px;
+    width:255px;
     font-size: 20px;
     font-weight: bold;
 }
