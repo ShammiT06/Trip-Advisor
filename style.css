@@ -379,6 +379,130 @@ body{
     font-weight: normal;
     font-style: italic;
 }
+.conct{
+    background-color: #F2F2F2;
+    padding-left: 10%;
+}
+.conct h2{
+    margin-top: 20px;
+    padding: 20px;
+}
+.contact{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.conct__images img{
+    width: 320px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.conct__images h3{
+    width: 320px;
+    padding-left: 45px;
+    margin-bottom: 30px;
+}
+.nextt{
+    padding-left: 10%;
+    margin-top: 20px;
+}
+.nextt h3{
+    padding: 5px;
+    margin-top: 10px;
+}
+.city{
+    padding-left: 10%;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+.city__images img{
+    width: 270px;
+    border-radius: 10px;
+}
+.chn,.palace,.bahia,.upper{
+    position:absolute;
+    bottom:10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+.main{
+    padding-left: 10%;
+    margin-top: 30px;
+}
+.fingers{
+    display: flex;
+    padding-left: 10%;
+    gap: 20px;
+    position: relative;
+}
+.epsilon img{
+    width: 270px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.abrod{
+    position: absolute;
+    bottom:10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+.wats{
+    margin-top:150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #F2ECF9;
+    position: relative;
+    
+}
+.ig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.ig img{
+    padding:20px;
+    width: 400px;
+    height: 400px;
+}
+#red{
+    position: absolute;
+    right:160px;
+    top: 240px;
+}
+#tub{
+    position: absolute;
+    right:145px;
+    top: 280px;
+}
+#but{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    right:250px;
+    top: 350px;
+}
+#icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon img{
+    width: 40px;
+    height: 40px;
+}
+
 
 /* Animations */
 @keyframes dance {
@@ -389,7 +513,6 @@ body{
     100%{
         transform:scale(100px);
     }
-    
 }
 
 @keyframes mouse {
