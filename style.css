@@ -11,6 +11,10 @@ body{
     align-items: center;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color:gray;
 }
 .navbar-1 img{
     animation: disco;
@@ -289,18 +293,20 @@ body{
 .containers{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
     margin-top: 30px;
     padding-left: 10%;
   
 }
 .next-images1 img{
-    width: 300px;
+    width: 350px;
     border-radius: 10px;
     height: 280px;
 }
 .next-images img{
-    width: 370px;
+    width: 350px;
     border-radius: 10px;
+    height: 280px;
 }
 .onee,.two,.three{
     padding: 10px;
@@ -320,6 +326,7 @@ body{
     margin-top: 10px;
     padding-left: 10%;
     position: relative;
+    flex-wrap: wrap;
 
 }
 .torch img{
@@ -338,10 +345,12 @@ body{
     position:absolute;
     background-color:#F2F2F2;
     border-radius:50%;
+    display: flex;
+    flex-wrap: wrap;
     top: 5px;
     left: 26%;
 }   
-.heart1{
+/* .heart1{
     padding: 10px;
     position:absolute;
     background-color:#F2F2F2;
@@ -363,8 +372,8 @@ body{
     background-color:#F2F2F2;
     border-radius:50%;
     top: 5px;
-    right: 10%;
-}
+    right: 10%; */ 
+/* } */
 .tours button{
     border: none;
     padding-left: 10px;
@@ -390,6 +399,7 @@ body{
 }
 .contact{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 10px;
 }
@@ -415,6 +425,7 @@ body{
     padding-left: 10%;
     margin-top: 10px;
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     gap: 20px;
 }
@@ -428,7 +439,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
-    color: white;
+    color:red;
 }
 .main{
     padding-left: 10%;
