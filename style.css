@@ -233,6 +233,7 @@ body{
 }
 .items-container{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     padding-left: 10%;
     margin-top: 10px;
